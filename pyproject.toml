@@ -14,6 +14,7 @@ torch = "^2.1.1"
 ffmpeg = "^1.4"
 audio2numpy = "^0.1.2"
 speechrecognition = "^3.10.1"
+openai-whisper
 
 
 [build-system]
