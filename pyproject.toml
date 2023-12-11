@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "s2text"
+version = "0.1.0"
+description = ""
+authors = ["Manasforcebolt <manas.chauhan@cloudanalogy.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.18"
+streamlit = "^1.29.0"
+audio-recorder-streamlit = "^0.0.8"
+transformers = "^4.35.2"
+torch = "^2.1.1"
+ffmpeg = "^1.4"
+audio2numpy = "^0.1.2"
+speechrecognition = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
